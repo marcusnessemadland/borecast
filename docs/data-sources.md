@@ -36,7 +36,3 @@ Used for sunrise and sunset per local day with the correct Oslo UTC offset. Nigh
 The initial position `58.7987905, 5.553825` is from Statens vegvesen's official Borestranda listing:
 
 - <https://www.nasjonaleturistveger.no/no/turistvegene/jaeren/borestranda/>
-
-## Camera
-
-No camera is enabled by default. Configure both `BORE_CAMERA_URL` and `BORE_CAMERA_OWNER` only after confirming the owner permits linking. BoreCast opens the official page externally and never labels a stale still as live.

@@ -132,12 +132,6 @@ export interface SkillProfile {
   maximumPeriodS: number;
 }
 
-export interface CameraConfig {
-  url: string;
-  owner: string;
-  mode: 'external';
-}
-
 export interface SurfSpot {
   id: string;
   slug: string;
@@ -155,7 +149,6 @@ export interface SurfSpot {
     tide: TidePreference;
   };
   skillProfiles: Record<SkillLevel, SkillProfile>;
-  camera?: CameraConfig;
   calibration: { status: 'initial_heuristic' | 'locally_calibrated'; notes: string };
 }
 

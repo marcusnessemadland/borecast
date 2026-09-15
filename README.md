@@ -54,6 +54,5 @@ docs                   Architecture, scoring and provider notes
 - The Bore profile is an initial heuristic calibration, not a learned or validated physical model.
 - Forecasts are not observations or a safety system.
 - Alert rules and browser permission are implemented local-first. Reliable push delivery while a browser is closed still requires a durable subscription store, VAPID configuration and a scheduled server evaluator.
-- The camera action is hidden until an approved owner and URL are configured.
 
 See [architecture](docs/architecture.md), [scoring](docs/scoring.md) and [data sources](docs/data-sources.md).

@@ -291,6 +291,10 @@ input:focus-visible {
   background: var(--ink);
   color: var(--white);
 }
+.window-panel .button.light {
+  background: #14211f;
+  color: #fffdf7;
+}
 .button.ghost-light {
   border-color: var(--ink);
 }

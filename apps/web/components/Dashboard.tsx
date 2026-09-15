@@ -136,16 +136,6 @@ export function Dashboard({ forecast }: { forecast: ForecastResponse }) {
               <a className="button light" href="#hours">
                 Se timene
               </a>
-              {forecast.spot.camera ? (
-                <a
-                  className="button ghost-light"
-                  href={forecast.spot.camera.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Se livekamera ↗
-                </a>
-              ) : null}
             </div>
           </aside>
         </div>
