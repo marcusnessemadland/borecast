@@ -1,0 +1,22 @@
+{
+  "name": "borecast",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @borecast/web dev",
+    "build": "pnpm --filter @borecast/web build",
+    "lint": "pnpm --filter @borecast/web lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm --filter @borecast/surf-engine test && pnpm --filter @borecast/weather test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}
